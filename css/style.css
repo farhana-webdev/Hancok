@@ -1,0 +1,158 @@
+/* all common css start   */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+       margin: 0;
+       padding: 0;
+       line-height: 0.8;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+/* all common css end   */
+
+/* header part css start  */
+#headerpart {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 39px 0;
+}
+.headerflex{
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li a{
+    color:#DDDDDD ;
+    padding: 0 17.5px;
+    font-size: 16px;
+    font-weight: 400;
+      font-family: "Oswald", sans-serif;
+
+}
+.menu ul li a:hover{
+     color: #f75663;
+     transition: 0.4s;
+}
+
+
+.logo{
+    width: 15%;
+}
+
+.menu{
+    width:    55%
+ ;
+}
+
+.more{
+    width: 30%;
+    text-align: right;
+  
+}
+.more  a:hover{
+    color: #f75663;
+    transition: 0.4s;
+}
+.more a{
+      color: #DDDDDD;
+      padding: 0 12px;
+      font-size: 16px;
+    font-weight: 400;
+      font-family: "Oswald", sans-serif;
+}
+
+/* header part css end  */
+
+/* Banner part start  */
+
+#Bannerpart{
+    padding-top: 345px;
+    padding-bottom: 103px;
+    background: url(../images/banner\ 2\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+
+}
+
+.bannercontent{
+    color: #DDDDDD;
+      font-family: "Oswald", sans-serif;
+}
+
+.bannercontent h1{
+    position: relative;
+    font-size: 60px;
+    font-weight: 600;
+    padding: 25px 0;
+    display: inline-block;
+
+}
+
+.bannercontent h1::after{
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    background: #DDDDDD;
+    content: "";
+    right: -130px;
+bottom: 25px;
+}
+
+
+.bannercontent h3{
+    font-size: 27px;
+    font-weight: 400;
+}
+.bannercontent p{
+    font-size: 16px;
+    font-weight: 400;
+width: 521px;
+line-height: 24px; 
+padding-bottom: 10px;
+}
+
+.bannercontent a{
+    background: white;
+    padding: 15px 20px;
+    color: rgb(27, 25, 25);
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid black;
+}
+.socialmediaicons a{
+    margin-top: 298px;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+
+.bannercontent a:hover{
+    color: #2c1e1e;
+    transition: 0.4s;
+    background: #f75663;
+}
+
+/* Banner part start  */
